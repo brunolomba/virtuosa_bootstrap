@@ -1,0 +1,46 @@
+:root {
+    --verde: rgb(17, 228, 17);
+    --amarelo: yellow;
+    --vermelho: red;
+}
+
+.servicos a.active {
+    color: var(--verde)!important;
+}
+
+.servicos:hover {
+    color: var(--verde)!important;
+}
+
+.tecnologia a.active {
+    color: var(--amarelo)!important;
+}
+
+.tecnologia:hover {
+    color: var(--amarelo)!important;
+}
+
+.contato a.active {
+    color: var(--vermelho)!important;
+}
+
+.contato:hover {
+    color: var(--vermelho)!important;
+}
+
+.bg-centro {
+    position: relative;
+    top: -70px
+}
+
+.alinhar {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .img-none {
+        display: none;
+    }
+}
